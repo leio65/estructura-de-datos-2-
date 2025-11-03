@@ -20,4 +20,7 @@ class Nodo :
         return self.valor
     def setValor (self, valor) :
         self.valor = valor 
-           
+
+    def verificarRaiz (self) :
+        return self.hijoIzquierda is None and self.getHijoDerecho is None
+     
